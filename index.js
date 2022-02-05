@@ -5,7 +5,7 @@ const port = 5000
 const route=require('./routes/todoRoute')
 const app = express()
 const Post=require('./config/mongodb')
-const { post } = require('./routes/mainRoute')
+
 
 app.use(monitor.morgan)
 
